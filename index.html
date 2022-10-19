@@ -12,6 +12,7 @@
     <link href="https://fonts.googleapis.com/css2?family=DM+Sans&family=Overpass&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css" />
     <link rel="stylesheet" href="./assets/css/swiperStyle.css">
+    <link rel="stylesheet" href="./assets/scripts/swiper.js">
 </head>
 
 <body>
@@ -37,15 +38,24 @@
 
     <!-- main -->
     <main class="container-main">
-        <section class="swiper">
+        <div class="swiper">
             <div class="swiper-wrapper">
                 <!-- Slides -->
-                <div class="swiper-slide">Slide 1</div>
-                <div class="swiper-slide">Slide 2</div>
-                <div class="swiper-slide">Slide 3</div>
-                ...
+                <div class="swiper-slide">
+                    <img src="./assets/image/carrosel-onca.png" alt="onça">
+                </div>
+                <div class="swiper-slide">
+                    <img src="./assets/image/carrosel-araras.png" alt="onça">
+                </div>
+                <div class="swiper-slide">
+                    <img src="./assets/image/carrosel-suricatos.png" alt="suricatos">
+                </div>
+                <div class="swiper-slide">
+                    <img src="./assets/image/carrosel-girafa.png" alt="girafa">
+                </div>
+
             </div>
-            <!-- If we need pagination -->
+            If we need pagination
             <div class="swiper-pagination"></div>
 
             <!-- If we need navigation buttons -->
@@ -54,11 +64,10 @@
 
             <!-- If we need scrollbar -->
             <div class="swiper-scrollbar"></div>
-
-        </section>
+        </div>
     </main>
 
-    <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+    <!-- <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script> -->
 </body>
 
 </html>
