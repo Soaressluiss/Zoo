@@ -1,0 +1,58 @@
+:root {
+    /* fontes */
+    --titulo: 'DM Sans', sans-serif;
+    --paragrafo: 'Overpass', sans-serif;
+
+    /* cores */
+    --menuNav: #00434D;
+    --menuNavHover: rgb(247, 163, 8);
+    --menuNavBtnHover: rgb(255, 230, 0);
+}
+
+
+.container-testimonials {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+    margin-top: 3rem;
+    background-color: var(--menuNav);
+}
+
+.container-testimonials > h3 {
+    font-family: var(--titulo);
+    color: var(--menuNavHover);
+    font-weight: bold;
+    font-size: 2.1rem;
+}
+.testimonial-msg {
+    max-width: 60%;
+    text-align: center;
+    color: white;
+    font-family: var(--paragrafo);
+    
+}
+
+.comentarios{
+    padding: 2rem;
+    border: 2px solid #ccc;
+    border-radius: 10px;
+}
+.comentarios-infos {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 1rem;
+}
+.nameperson {
+    font-family: var(--titulo);
+    font-size: 1.2rem;
+    color: var(--menuNavHover);
+
+}
+.comentarioMsg {
+    font-family: var(--paragrafo);
+    font-size: 1.1rem;
+    text-align: justify;
+    color: white;
+}
