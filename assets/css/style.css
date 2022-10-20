@@ -16,6 +16,7 @@
     text-decoration: none;
     list-style: none;
 }
+
 html,
 root {
     height: 100%;
@@ -25,7 +26,7 @@ root {
 
 /* Header */
 nav {
-    background-color: #00434D;
+    background-color: var(--menuNav);
     display: flex;
     justify-content: space-evenly;
     align-items: center;
@@ -38,6 +39,7 @@ nav {
     gap: 2rem;
     align-items: center;
 }
+
 .nav-menu>li>a {
     text-transform: uppercase;
     font-size: 1rem;
@@ -47,19 +49,22 @@ nav {
 
 
 }
+
 .nav-menu>li>a:hover {
     color: var(--menuNavHover)
 }
 
 .search {
-    color:white;
+    color: white;
     cursor: pointer;
 }
-.search:hover{
+
+.search:hover {
     transition: all 1s ease;
     color: var(--menuNavHover);
 
 }
+
 .btn-ticket {
     padding: .5rem 1rem;
     background-color: var(--menuNavHover);
@@ -69,12 +74,127 @@ nav {
     gap: .4rem;
     cursor: pointer;
 }
-.btn-ticket>a, .receipt {
+
+.btn-ticket>a,
+.receipt {
     color: white;
     font-size: .9rem;
     font-weight: bold;
 }
-.btn-ticket:hover{
+
+.btn-ticket:hover {
     transition: all 1s ease;
     background-color: var(--menuNavBtnHover);
+}
+
+/* style carrosel */
+
+.container-tittle {
+    position: absolute;
+    color: white;
+    z-index: 9999;
+    margin: 4.5rem;
+    max-width: 50%;
+    display: flex;
+    flex-direction: column;
+    gap: .5rem;
+}
+
+.container-tittle>span {
+    color: var(--menuNavHover);
+    font-size: 2rem;
+    font-family: var(--titulo);
+    font-weight: bold;
+    text-shadow: 1px 2px 3px black;
+}
+
+.container-tittle>h3 {
+    font-family: var(--titulo);
+    font-size: 1.8rem;
+    font-weight: bold;
+    text-shadow: 1px 2px 3px black;
+
+}
+
+.container-tittle>p {
+    font-weight: bold;
+    font-size: .8rem;
+    text-align: justify;
+    text-shadow: 1px 2px 3px black;
+}
+
+.btn-discover {
+    background-color: var(--menuNavHover);
+    color: white;
+    padding: .5rem .7rem;
+    border-radius: 5px;
+    width: 120px;
+    border: none;
+    font-size: .8rem;
+    box-shadow: 1px 1px 2px black;
+    cursor: pointer;
+}
+
+.btn-discover:hover {
+    transition: all 1s ease;
+    background-color: var(--menuNavBtnHover);
+    color: rgb(36, 38, 39);
+}
+
+/* find especies */
+.container-findEspecies {
+    display: flex;
+    margin: 4rem 3rem;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.especies-info>span {
+    font-family: var(--titulo);
+    color: var(--menuNavBtnHover);
+    font-size: 1.4rem;
+    font-weight: bolder;
+    text-shadow: 1px 1px 1px black;
+}
+
+.especies-info>h2 {
+    font-family: var(--titulo);
+    font-size: 2rem;
+    margin-bottom: .5rem;
+}
+.especies-info >p {
+    font-size: .8rem;
+    color: rgb(45, 43, 43);
+    font-family: var(--paragrafo);
+    margin-bottom: .7rem;
+    text-align: justify;
+}
+.especies-info > ul >li {
+    font-family: var(--paragrafo);
+    margin-bottom: .3rem;
+    color: black;
+    font-size: .9rem;  
+}
+.especies-info > ul >li::before {
+    content: "\2705";
+    color: green;
+    font-size: 1.2rem;
+    margin-right: .6rem;
+
+}
+.btn-especies {
+    background-color: var(--menuNavHover);
+    border: none;
+    border-radius: 5px;
+    color: white;
+    padding: .7rem 1rem;
+    text-transform: uppercase;
+    margin-top: .6rem;
+    font-family: var(--paragrafo);
+}
+.btn-especies:hover {
+    transition: all 1s ease;
+    background-color: var(--menuNavBtnHover);
+    color: rgb(36, 38, 39);
 }

@@ -12,7 +12,6 @@
     <link href="https://fonts.googleapis.com/css2?family=DM+Sans&family=Overpass&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css" />
     <link rel="stylesheet" href="./assets/css/swiperStyle.css">
-    <link rel="stylesheet" href="./assets/scripts/swiper.js">
 </head>
 
 <body>
@@ -22,8 +21,8 @@
             <ul class="nav-menu">
                 <li><a href="#">Home</a></li>
                 <li><a href="#">About us</a></li>
-                <li><a href="#">Planning</a></li>
                 <li><a href="#">Destinations</a></li>
+                <li><a href="#">Testimonials</a></li>
                 <li><a href="#">Contats</a></li>
                 <!-- <input type="search" name="buscar" id="buscar"> -->
                 <span class="material-symbols-outlined search">search</span>
@@ -35,10 +34,16 @@
         </nav>
 
     </header>
-
     <!-- main -->
     <main class="container-main">
-        <div class="swiper">
+        <section class="swiper">
+            <div class="container-tittle">
+                <span>Journey to</span>
+                <h3>Trought a world of wildfire</h3>
+                <p>There are many variations of passages of Lorem ipsum availabre but the majority have that suffered
+                    alternation in some by injected humour.</p>
+                <button class="btn-discover">Discover Now</button>
+            </div>
             <div class="swiper-wrapper">
                 <!-- Slides -->
                 <div class="swiper-slide">
@@ -55,19 +60,34 @@
                 </div>
 
             </div>
-            If we need pagination
             <div class="swiper-pagination"></div>
 
             <!-- If we need navigation buttons -->
             <div class="swiper-button-prev"></div>
             <div class="swiper-button-next"></div>
+        </section>
+        <section class="container-findEspecies">
+            <img src="./assets/image/coleção-animais.png" alt="coleção de fotos de animais">
+            <div class="especies-info">
+                <span>You can find</span>
+                <h2>All the most popular species</h2>
+                <p>There are many variantions of Lorem ipsum dolor sit amet consectetur adipisicing elit. Error illo
+                    asperiores ullam ut sequi commodi repellat cum omnis. Maxime maiores consequuntur quaerat alias
+                    cumque mollitia facere repellat, illum voluptatibus ipsam.</p>
+                <ul>
+                    <li>Lorem ipsum dolor sit amet consectetur adipisicing elit.</li>
+                    <li>Lorem ipsum dolor sit amet consectetur adipisicing elit.</li>
+                    <li>Lorem ipsum dolor sit amet consectetur adipisicing elit.</li>
+                    <li>Lorem ipsum dolor sit amet consectetur adipisicing elit.</li>
+                </ul>
+                <button class="btn-especies">Learn more</button>
+            </div>
+        </section>
 
-            <!-- If we need scrollbar -->
-            <div class="swiper-scrollbar"></div>
-        </div>
     </main>
 
-    <!-- <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script> -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+    <script src="./assets/scripts/swiper.js"></script>
 </body>
 
 </html>
