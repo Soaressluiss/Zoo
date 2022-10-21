@@ -333,9 +333,67 @@ nav {
     font-size: 1.4rem;
     margin-top: 5rem;
 }
+
 .donate {
     font-family: var(--titulo);
     color: white;
     margin-top: 7rem;
     font-size: 1.2rem;
+}
+
+/* lastest Newa */
+
+.container-LastestNews {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+    margin: 2rem 0;
+}
+
+.lastestNewsTitle {
+    font-family: var(--titulo);
+    color: var(--menuNavHover);
+    font-size: 2rem;
+}
+
+.lastestNewsInfo {
+    font-family: var(--paragrafo);
+    text-align: center;
+    width: 60%;
+}
+
+.news {
+    display: flex;
+    width: 80%;
+    gap: .6rem;
+    margin-bottom: 5rem;
+
+}
+
+.newsPosts01 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-shadow: 13px 7px 23px -12px rgba(0,0,0,0.61);
+}
+.newsTitle {
+    font-family: var(--titulo);
+    color: var(--menuNavHover);
+    font-weight: bold;
+    text-transform: uppercase;
+    padding: .3rem 0;
+    margin: .5rem;
+}
+.newsPostsInfo {
+    font-family: var(--paragrafo);
+    text-align: justify;
+    width: 90%;
+    margin: .5rem;
+    
+}
+
+.newsPostsAside {
+    display: flex;
+    box-shadow: 13px 7px 23px -12px rgba(0,0,0,0.61);
 }
