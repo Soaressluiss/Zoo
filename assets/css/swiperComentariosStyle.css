@@ -1,4 +1,12 @@
 .swiperComentarios {
-    width:1024px;
-    height: 362px;
+    width:100%;
+    height: 100%;
 }
+
+
+.swiper-slide {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }

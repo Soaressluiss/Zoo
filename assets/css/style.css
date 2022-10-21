@@ -225,21 +225,117 @@ nav {
     content: "\01F6C6";
 }
 
-.container-destination > p {
+.container-destination>p {
     font-size: .8rem;
     text-align: center;
     font-family: var(--paragrafo);
-    max-width: 60%; 
+    max-width: 60%;
 }
+
 .destination-imgs {
     display: grid;
     grid-template-areas: "a b  c"
-                         "d  e f";
+        "d  e f";
     gap: 1rem;
 }
-.destination-img01{grid-area: "a";}
-.destination-img02{grid-area: "b";}
-.destination-img03{grid-area: "c";}
-.destination-img04{grid-area: "d";}
-.destination-img05{grid-area: "e";}
-.destination-img06{grid-area: "f";}
+
+.destination-img01 {
+    grid-area: "a";
+}
+
+.destination-img02 {
+    grid-area: "b";
+}
+
+.destination-img03 {
+    grid-area: "c";
+}
+
+.destination-img04 {
+    grid-area: "d";
+}
+
+.destination-img05 {
+    grid-area: "e";
+}
+
+.destination-img06 {
+    grid-area: "f";
+}
+
+/* container our animals */
+
+.container-ourAnimals {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: .8rem;
+    margin: 2rem 0;
+}
+
+.ourAnimalsTitle {
+    font-family: var(--titulo);
+    font-size: 2rem;
+    color: var(--menuNavHover);
+    font-weight: bold;
+
+}
+
+.ourAnimalsInfo {
+    font-family: var(--paragrafo);
+    width: 60%;
+    text-align: center;
+}
+
+.animalsExposed {
+    display: flex;
+    gap: 5rem;
+    margin: 2rem 0;
+}
+
+.animalsExposedCircle {
+    text-align: center;
+}
+
+.animalsExposedCircle:hover {
+    transition: all 1s ease-in-out;
+    transform: scale(1.1);
+}
+
+.animalsExposedCircle>img {
+    filter: drop-shadow(2px 2px 2px black)
+}
+
+.animalExposedCircleName {
+    color: var(--menuNavHover);
+    font-family: var(--titulo);
+    font-weight: bold;
+    padding: 1rem;
+}
+
+/* Donation */
+
+.container-donation {
+    position: relative;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.donateTitleMsg,
+.donate {
+    position: absolute;
+}
+
+.donateTitleMsg {
+    font-family: var(--paragrafo);
+    color: var(--menuNavHover);
+    font-size: 1.4rem;
+    margin-top: 5rem;
+}
+.donate {
+    font-family: var(--titulo);
+    color: white;
+    margin-top: 7rem;
+    font-size: 1.2rem;
+}

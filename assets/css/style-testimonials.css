@@ -29,14 +29,14 @@
     max-width: 60%;
     text-align: center;
     color: white;
-    font-family: var(--paragrafo);
-    
+    font-family: var(--paragrafo);   
 }
 
 .comentarios{
     padding: 2rem;
     border: 2px solid #ccc;
     border-radius: 10px;
+    width: 50%;
 }
 .comentarios-infos {
     display: flex;
