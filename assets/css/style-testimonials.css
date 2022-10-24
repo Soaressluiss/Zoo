@@ -35,8 +35,8 @@
 .comentarios{
     padding: 2rem;
     border: 2px solid #ccc;
+    margin: 1rem;
     border-radius: 10px;
-    width: 50%;
 }
 .comentarios-infos {
     display: flex;
@@ -55,4 +55,14 @@
     font-size: 1.1rem;
     text-align: justify;
     color: white;
+}
+.slick-slider {
+    width: 90%;
+}
+.arrows-comentarios {
+    display: flex;
+    margin-bottom: .3rem;
+}
+.arrowsNext, .arrowsPrev {
+    color: red;
 }

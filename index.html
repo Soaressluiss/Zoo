@@ -14,6 +14,10 @@
     <link href="https://fonts.googleapis.com/css2?family=DM+Sans&family=Overpass&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css" />
     <link rel="stylesheet" href="./assets/css/swiperStyle.css">
+
+    <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+
 </head>
 
 <body>
@@ -27,10 +31,12 @@
                 <li><a href="#">Testimonials</a></li>
                 <li><a href="#">Contats</a></li>
                 <!-- <input type="search" name="buscar" id="buscar"> -->
-                <span class="material-symbols-outlined search">search</span>
+                <i class="fa-solid fa-magnifying-glass search"></i>
                 <div class="btn-ticket">
-                    <span class="material-symbols-outlined receipt">receipt</span>
-                    <a href="#">Tickets</a>
+                    <a href="#">
+                        <i class="fa-solid fa-ticket ticket"></i>
+                        Tickets
+                    </a>
                 </div>
             </ul>
         </nav>
@@ -104,115 +110,76 @@
             <p class="testimonial-msg">Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis, quasi
                 deleniti itaque eligendi recusandae doloremque architecto voluptatibus suscipit cum deserunt quam!
                 Cupiditate laudantium amet re</p>
-
             <!-- carrosel -->
-            <div class="swiper swiperComentarios">
-                <div class="swiper-wrapper">
-                    <div class="swiper-slide">
-                        <div class="comentarios">
-                            <div class="comentarios-infos">
-                                <img src="./assets/image/comentario-pessoa-01.png" alt="comentario-pessoa-01">
-                                <p class="nameperson">
-                                    Marcos Fonseca
-                                </p>
-                            </div>
-                            <div class="wrapperComentarioMsg">
-                                <p class="comentarioMsg">
-                                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eveniet ratione eaque
-                                    dolore expedita facere incidunt nobis repellat ab, placeat, reprehenderit
-                                    consequatur ipsum inventore. Dolor nostrum asperiores.
-                                </p>
-
-                            </div>
-                        </div>
+            <div class="carrosel-comentarios">
+                <div class="comentarios">
+                    <div class="comentarios-infos">
+                        <img src="./assets/image/comentario-pessoa-01.png" alt="comentario-pessoa-01">
+                        <p class="nameperson">
+                            Marcos Fonseca
+                        </p>
                     </div>
-                    <div class="swiper-slide">
-                        <div class="comentarios">
-                            <div class="comentarios-infos">
-                                <img src="./assets/image/comentario-pessoa-02.png" alt="comentario-pessoa-02">
-                                <p class="nameperson">
-                                    Ana Vilela
-                                </p>
-                            </div>
-                            <div class="wrapperComentarioMsg">
-                                <p class="comentarioMsg">
-                                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eveniet ratione eaque
-                                    dolore expedita facere incidunt nobis repellat ab, placeat, reprehenderit
-                                    consequatur ipsum inventore. Dolor nostrum asperiores.
-                                </p>
-
-                            </div>
-                        </div>
+                    <div class="wrapperComentarioMsg">
+                        <p class="comentarioMsg">
+                            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eveniet ratione eaque
+                            dolore expedita facere incidunt nobis repellat ab, placeat, reprehenderit
+                            consequatur ipsum inventore. Dolor nostrum asperiores.
+                        </p>
                     </div>
-                    <div class="swiper-slide">
-                        <div class="comentarios">
-                            <div class="comentarios-infos">
-                                <img src="./assets/image/comentario-pessoa-03.png" alt="comentario-pessoa-03">
-                                <p class="nameperson">
-                                    Bruno Alencar
-                                </p>
-                            </div>
-                            <div class="wrapperComentarioMsg">
-                                <p class="comentarioMsg">
-                                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eveniet ratione eaque
-                                    dolore expedita facere incidunt nobis repellat ab, placeat, reprehenderit
-                                    consequatur ipsum inventore. Dolor nostrum asperiores.
-                                </p>
-
-                            </div>
-                        </div>
-                    </div>
-                    <div class="swiper-slide">
-                        <div class="comentarios">
-                            <div class="comentarios-infos">
-                                <img src="./assets/image/comentario-pessoa-04.png" alt="comentario-pessoa-04">
-                                <p class="nameperson">
-                                    José Ribamar
-                                </p>
-                            </div>
-                            <div class="wrapperComentarioMsg">
-                                <p class="comentarioMsg">
-                                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eveniet ratione eaque
-                                    dolore expedita facere incidunt nobis repellat ab, placeat, reprehenderit
-                                    consequatur ipsum inventore. Dolor nostrum asperiores.
-                                </p>
-
-                            </div>
-                        </div>
-                    </div>
-                    <div class="swiper-slide">
-                        <div class="comentarios">
-                            <div class="comentarios-infos">
-                                <img src="./assets/image/comentario-pessoa-01.png" alt="comentario-pessoa-01">
-                                <p class="nameperson">
-                                    Marcos Fonseca
-                                </p>
-                            </div>
-                            <div class="wrapperComentarioMsg">
-                                <p class="comentarioMsg">
-                                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eveniet ratione eaque
-                                    dolore expedita facere incidunt nobis repellat ab, placeat, reprehenderit
-                                    consequatur ipsum inventore. Dolor nostrum asperiores.
-                                </p>
-
-                            </div>
-                        </div>
-                    </div>
-
-
-
-
-
-
-
-
-
-
-                    <div class="swiper-pagination"></div>
-                    <!-- If we need navigation buttons -->
-                    <div class="swiper-button-prev"></div>
-                    <div class="swiper-button-next"></div>
                 </div>
+                <div class="comentarios">
+                    <div class="comentarios-infos">
+                        <img src="./assets/image/comentario-pessoa-02.png" alt="comentario-pessoa-02">
+                        <p class="nameperson">
+                            Ana Alencar
+                        </p>
+                    </div>
+                    <div class="wrapperComentarioMsg">
+                        <p class="comentarioMsg">
+                            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eveniet ratione eaque
+                            dolore expedita facere incidunt nobis repellat ab, placeat, reprehenderit
+                            consequatur ipsum inventore. Dolor nostrum asperiores.
+                        </p>
+                    </div>
+                </div>
+                <div class="comentarios">
+                    <div class="comentarios-infos">
+                        <img src="./assets/image/comentario-pessoa-03.png" alt="comentario-pessoa-03">
+                        <p class="nameperson">
+                            Luiza Franco
+                        </p>
+                    </div>
+                    <div class="wrapperComentarioMsg">
+                        <p class="comentarioMsg">
+                            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eveniet ratione eaque
+                            dolore expedita facere incidunt nobis repellat ab, placeat, reprehenderit
+                            consequatur ipsum inventore. Dolor nostrum asperiores.
+                        </p>
+                    </div>
+                </div>
+                <div class="comentarios">
+                    <div class="comentarios-infos">
+                        <img src="./assets/image/comentario-pessoa-04.png" alt="comentario-pessoa-04">
+                        <p class="nameperson">
+                            Pedro Oliveira
+                        </p>
+                    </div>
+                    <div class="wrapperComentarioMsg">
+                        <p class="comentarioMsg">
+                            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eveniet ratione eaque
+                            dolore expedita facere incidunt nobis repellat ab, placeat, reprehenderit
+                            consequatur ipsum inventore. Dolor nostrum asperiores.
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="arrows-comentarios">
+                <i class="fa-solid fa-circle-arrow-left"></i>
+                <i class="fa-solid fa-circle-arrow-right"></i>
+            </div>
+
+
+
         </section>
         <section class="container-ourAnimals">
             <h3 class="ourAnimalsTitle">Our Animals</h3>
@@ -316,7 +283,11 @@
 
     <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
     <script src="./assets/scripts/swiper.js"></script>
-    <script src="./assets/scripts/swiperComentarios.js"></script>
+
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+    <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+    <script src="./assets/scripts/carroselComentarios.js"></script>
 
 </body>
 

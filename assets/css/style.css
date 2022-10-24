@@ -68,24 +68,27 @@ nav {
 .btn-ticket {
     padding: .5rem 1rem;
     background-color: var(--menuNavHover);
-    display: flex;
-    align-content: center;
     border-radius: 10px;
-    gap: .4rem;
     cursor: pointer;
 }
 
 .btn-ticket>a,
-.receipt {
+.ticket {
     color: white;
     font-size: .9rem;
     font-weight: bold;
 }
-
+.btn-ticket>a {
+    /* padding: 1rem; */
+}
 .btn-ticket:hover {
     transition: all 1s ease;
     background-color: var(--menuNavBtnHover);
+    color: blue;
 }
+/* .btn-ticket >a:hover, .ticket:hover{
+    color: red;
+} */
 
 /* style carrosel */
 
