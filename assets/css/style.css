@@ -78,19 +78,23 @@ nav {
     font-size: .9rem;
     font-weight: bold;
 }
-.btn-ticket>a {
-    /* padding: 1rem; */
-}
+
 .btn-ticket:hover {
     transition: all 1s ease;
     background-color: var(--menuNavBtnHover);
-    color: blue;
 }
-/* .btn-ticket >a:hover, .ticket:hover{
-    color: red;
-} */
+.ticket:hover, .linkTicket:hover{
+    color: var(--menuNav)
+}
 
 /* style carrosel */
+.container-carrosel-principal {
+    /* display: block;
+
+
+    margin:0 auto */
+}
+
 
 .container-tittle {
     position: absolute;
@@ -121,7 +125,7 @@ nav {
 
 .container-tittle>p {
     font-weight: bold;
-    font-size: .8rem;
+    font-size: 1rem;
     text-align: justify;
     text-shadow: 1px 2px 3px black;
 }
@@ -133,6 +137,7 @@ nav {
     border-radius: 5px;
     width: 120px;
     border: none;
+    margin-top: .5rem;
     font-size: .8rem;
     box-shadow: 1px 1px 2px black;
     cursor: pointer;
@@ -143,6 +148,11 @@ nav {
     background-color: var(--menuNavBtnHover);
     color: rgb(36, 38, 39);
 }
+
+.carrosel-swiper {
+    max-width: 100%;
+}
+
 
 /* find especies */
 .container-findEspecies {
@@ -221,11 +231,6 @@ nav {
     font-weight: bolder;
     font-family: var(--titulo);
     color: var(--menuNavHover);
-}
-
-.destination-title::after,
-.destination-title::before {
-    content: "\01F6C6";
 }
 
 .container-destination>p {
@@ -344,7 +349,7 @@ nav {
     font-size: 1.2rem;
 }
 
-/* lastest Newa */
+/* lastest News */
 
 .container-LastestNews {
     display: flex;
@@ -369,7 +374,7 @@ nav {
 .news {
     display: flex;
     width: 80%;
-    gap: .6rem;
+    gap: 1rem;
     margin-bottom: 5rem;
 
 }
@@ -399,4 +404,83 @@ nav {
 .newsPostsAside {
     display: flex;
     box-shadow: 13px 7px 23px -12px rgba(0,0,0,0.61);
+}
+.btn-news{
+    background-color: var(--menuNavHover);
+    border: none;
+    padding: .5rem;
+    border-radius: 5px;
+    margin-left: .4rem;
+    margin-bottom: .5rem;
+    cursor: pointer;
+}
+.btn-news:hover {
+    background-color: var(--menuNavBtnHover);
+    transition: all 1s ease-in-out;
+}
+
+
+/* Footer */
+
+.footer {
+    padding-top: 1rem;
+    background-color: var(--menuNav);
+    display: grid;
+    grid-template-areas: "a b c"
+                        "d d d"
+                        "e e e";
+}
+.zoo-company {
+    grid-area: "a";
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: .5rem;
+}
+.address-info {
+    font-family: var(--paragrafo);
+    color: white;
+    padding: .5rem;
+    
+}
+.social-network {
+    font-size: 1.5rem;
+    margin: .3rem;
+    color: white;
+}
+.social-network:hover {
+    color:var(--menuNavHover);
+    transition: all .5s ease-in-out;
+}
+
+.explore-footer {
+    grid-area: "b";
+}
+.explore-tittle {
+    font-size: 1.5rem;
+    color: var(--menuNavHover);
+    font-family: var(--titulo);
+    margin-bottom: .5rem;
+}
+.explore-options {
+    padding: .3rem;
+}
+.explore-options>a {
+    color: white;
+    font-family: var(--paragrafo);
+}
+.newsletter {
+    grid-area: "c";
+}
+.newsletter-tittle {
+    font-family: var(--titulo);
+    color: var(--menuNavHover);
+    font-size: 1.5rem;
+}
+
+.corporation-zoo {
+    grid-area: "d";
+}
+.dev {
+    grid-area: "e";
 }
