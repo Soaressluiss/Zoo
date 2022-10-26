@@ -1,0 +1,57 @@
+.container-carrosel-principal {
+  width: 90%;
+  margin: 0 auto;
+}
+.container-tittle {
+    position: absolute;
+    color: white;
+    z-index: 9999;
+    margin: 4.5rem;
+    max-width: 50%;
+    display: flex;
+    flex-direction: column;
+    gap: .5rem;
+}
+
+.container-tittle>span {
+    color: var(--menuNavHover);
+    font-size: 2rem;
+    font-family: var(--titulo);
+    font-weight: bold;
+    text-shadow: 1px 2px 3px black;
+}
+
+.container-tittle>h3 {
+    font-family: var(--titulo);
+    font-size: 1.8rem;
+    font-weight: bold;
+    text-shadow: 1px 2px 3px black;
+
+}
+
+.container-tittle>p {
+    font-weight: bold;
+    font-size: 1rem;
+    text-align: justify;
+    text-shadow: 1px 2px 3px black;
+}
+
+.btn-discover {
+    background-color: var(--menuNavHover);
+    color: white;
+    padding: .5rem .7rem;
+    border-radius: 5px;
+    width: 120px;
+    border: none;
+    margin-top: .5rem;
+    font-size: .8rem;
+    box-shadow: 1px 1px 2px black;
+    cursor: pointer;
+}
+
+.btn-discover:hover {
+    transition: all 1s ease;
+    background-color: var(--menuNavBtnHover);
+    color: rgb(36, 38, 39);
+}
+

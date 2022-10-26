@@ -1,0 +1,52 @@
+.container-destination {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+}
+
+.destination-title {
+    font-size: 2rem;
+    font-weight: bolder;
+    font-family: var(--titulo);
+    color: var(--menuNavHover);
+}
+
+.container-destination>p {
+    font-size: .8rem;
+    text-align: center;
+    font-family: var(--paragrafo);
+    max-width: 60%;
+}
+
+.destination-imgs {
+    display: grid;
+    grid-template-areas: "a b  c"
+        "d  e f";
+    gap: 1rem;
+}
+
+.destination-img01 {
+    grid-area: "a";
+}
+
+.destination-img02 {
+    grid-area: "b";
+}
+
+.destination-img03 {
+    grid-area: "c";
+}
+
+.destination-img04 {
+    grid-area: "d";
+}
+
+.destination-img05 {
+    grid-area: "e";
+}
+
+.destination-img06 {
+    grid-area: "f";
+}
+

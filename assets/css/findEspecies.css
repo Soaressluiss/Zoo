@@ -1,0 +1,61 @@
+.container-findEspecies {
+    display: flex;
+    margin: 4rem 3rem;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.especies-info>span {
+    font-family: var(--titulo);
+    color: var(--menuNavHover);
+    font-size: 1.6rem;
+    font-weight: bolder;
+    text-shadow: 1px 1px 1px black;
+}
+
+.especies-info>h2 {
+    font-family: var(--titulo);
+    font-size: 2rem;
+    margin-bottom: .5rem;
+}
+
+.especies-info>p {
+    font-size: .8rem;
+    color: rgb(45, 43, 43);
+    font-family: var(--paragrafo);
+    margin-bottom: .7rem;
+    text-align: justify;
+}
+
+.especies-info>ul>li {
+    font-family: var(--paragrafo);
+    margin-bottom: .3rem;
+    color: black;
+    font-size: .9rem;
+}
+
+.especies-info>ul>li::before {
+    content: "\2705";
+    color: green;
+    font-size: 1.2rem;
+    margin-right: .6rem;
+
+}
+
+.btn-especies {
+    background-color: var(--menuNavHover);
+    border: none;
+    border-radius: 5px;
+    color: white;
+    padding: .7rem 1rem;
+    text-transform: uppercase;
+    margin-top: .6rem;
+    font-family: var(--paragrafo);
+}
+
+.btn-especies:hover {
+    transition: all 1s ease;
+    background-color: var(--menuNavBtnHover);
+    color: rgb(36, 38, 39);
+}

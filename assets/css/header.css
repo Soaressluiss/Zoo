@@ -1,0 +1,61 @@
+nav {
+    background-color: var(--menuNav);
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    align-content: center;
+    padding: 1rem;
+}
+
+.nav-menu {
+    display: flex;
+    gap: 2rem;
+    align-items: center;
+}
+
+.nav-menu>li>a {
+    text-transform: uppercase;
+    font-size: 1rem;
+    font-family: var(--titulo);
+    font-weight: bold;
+    color: white;
+
+
+}
+
+.nav-menu>li>a:hover {
+    color: var(--menuNavHover)
+}
+
+.search {
+    color: white;
+    cursor: pointer;
+}
+
+.search:hover {
+    transition: all 1s ease;
+    color: var(--menuNavHover);
+
+}
+
+.btn-ticket {
+    padding: .5rem 1rem;
+    background-color: var(--menuNavHover);
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.btn-ticket>a,
+.ticket {
+    color: white;
+    font-size: .9rem;
+    font-weight: bold;
+}
+
+.btn-ticket:hover {
+    transition: all 1s ease;
+    background-color: var(--menuNavBtnHover);
+}
+.ticket:hover, .linkTicket:hover{
+    color: var(--menuNav)
+}

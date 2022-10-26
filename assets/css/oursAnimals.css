@@ -1,0 +1,47 @@
+.container-ourAnimals {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: .8rem;
+    margin: 2rem 0;
+}
+
+.ourAnimalsTitle {
+    font-family: var(--titulo);
+    font-size: 2rem;
+    color: var(--menuNavHover);
+    font-weight: bold;
+
+}
+
+.ourAnimalsInfo {
+    font-family: var(--paragrafo);
+    width: 60%;
+    text-align: center;
+}
+
+.animalsExposed {
+    display: flex;
+    gap: 5rem;
+    margin: 2rem 0;
+}
+
+.animalsExposedCircle {
+    text-align: center;
+}
+
+.animalsExposedCircle:hover {
+    transition: all 1s ease-in-out;
+    transform: scale(1.1);
+}
+
+.animalsExposedCircle>img {
+    filter: drop-shadow(2px 2px 2px black)
+}
+
+.animalExposedCircleName {
+    color: var(--menuNavHover);
+    font-family: var(--titulo);
+    font-weight: bold;
+    padding: 1rem;
+}

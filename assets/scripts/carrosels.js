@@ -6,13 +6,13 @@ const next = document.querySelector(".fa-circle-arrow-right")
 $(document).ready(function () {
     $('.carrosel-swiper').slick({
         infinite: true,
-        // slidesToShow: 1,
-        // slidesToScroll: 1,
+        slidesToShow: 1,
+        slidesToScroll: 1,
         autoplay:true,
         autoplaySpeed: 2000,
-        arrows:false,
-        // prevArrow: prev,
-        // nextArrow: next,
+        arrows:true,
+        prevArrow: prev,
+        nextArrow: next,
 
     });
 });

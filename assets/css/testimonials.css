@@ -9,7 +9,6 @@
     --menuNavBtnHover: rgb(255, 230, 0);
 }
 
-
 .container-testimonials {
     display: flex;
     flex-direction: column;
@@ -31,7 +30,9 @@
     color: white;
     font-family: var(--paragrafo);   
 }
-
+.carrosel-comentarios {
+    width: 90%;
+}
 .comentarios{
     padding: 1rem;
     border: 2px solid #ccc;
@@ -57,9 +58,7 @@
     text-align: justify;
     color: white;
 }
-.slick-slider {
-    width: 90%;
-}
+
 .arrows-comentarios {
     display: flex;
     margin-bottom: 1rem;

@@ -1,0 +1,50 @@
+.container-donation {
+    position: relative;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.donateTitleMsg,
+.donate {
+    position: absolute;
+    cursor: pointer;
+}
+
+.donateTitleMsg {
+    font-family: var(--paragrafo);
+    color: var(--menuNavHover);
+    font-size: 1.4rem;
+    margin-top: 5rem;
+}
+
+.donate {
+    font-family: var(--titulo);
+    color: white;
+    margin-top: 7rem;
+    font-size: 1.2rem;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
