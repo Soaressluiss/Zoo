@@ -27,6 +27,11 @@ nav {
     color: var(--menuNavHover)
 }
 
+#buscar{
+    border: none;
+    border-radius: 10px;
+    padding: .3rem 1rem;
+}
 .search {
     color: white;
     cursor: pointer;
@@ -55,6 +60,7 @@ nav {
 .btn-ticket:hover {
     transition: all 1s ease;
     background-color: var(--menuNavBtnHover);
+    animation: backAndForth 2s ease-in-out forwards;
 }
 .ticket:hover, .linkTicket:hover{
     color: var(--menuNav)

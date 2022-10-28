@@ -66,4 +66,9 @@
 }
 .fa-circle-arrow-left,.fa-circle-arrow-right {
         color: var(--menuNavHover);
+        cursor: pointer;
+}
+.fa-circle-arrow-left:hover,.fa-circle-arrow-right:hover {
+        color: var(--menuNavBtnHover);
+        
 }

@@ -52,10 +52,12 @@
     text-transform: uppercase;
     margin-top: .6rem;
     font-family: var(--paragrafo);
+    cursor: pointer;
 }
 
 .btn-especies:hover {
-    transition: all 1s ease;
+    transition: all 2s ease;
     background-color: var(--menuNavBtnHover);
     color: rgb(36, 38, 39);
+    animation: backAndForth 2s ease-in-out forwards;
 }

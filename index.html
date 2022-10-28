@@ -19,22 +19,24 @@
     <link rel="stylesheet" href="./assets/css/donations.css">
     <link rel="stylesheet" href="./assets/css/lastestNews.css">
     <link rel="stylesheet" href="./assets/css/footer.css">
+    <link rel="stylesheet" href="./assets/css/animations.css">
 
 </head>
 
 <body>
     <header>
         <nav>
-            <h1><img src="https://via.placeholder.com/150x50" alt="logo do site"></h1>
+            <h1><img src="https://via.placeholder.com/150x50" alt="logo do site" aria-label="logo do site"></h1>
             <ul class="nav-menu">
-                <li><a href="#">Home</a></li>
-                <li><a href="#">About us</a></li>
-                <li><a href="#">Destinations</a></li>
-                <li><a href="#">Testimonials</a></li>
-                <li><a href="#">Contats</a></li>
-                <!-- <input type="search" name="buscar" id="buscar"> -->
-                <i class="fa-solid fa-magnifying-glass search"></i>
-                <div class="btn-ticket">
+                <li><a href="/">Home</a></li>
+                <li><a href="#destination">Destinations</a></li>
+                <li><a href="#donation">Donate</a></li>
+                <li><a href="#news">News</a></li>
+                <li><a href="/">About us</a></li>
+                <li><a href="/">Contats</a></li>
+                <input type="search" name="buscar" id="buscar" aria-label="digite um termo" placeholder="digite um termo...">
+                <i role="search" class="fa-solid fa-magnifying-glass search"></i>
+                <div role="button" class="btn-ticket">
                     <a class="linkTicket" href="#">
                         <i class="fa-solid fa-ticket ticket"></i>
                         Tickets
@@ -79,7 +81,11 @@
                 <button class="btn-especies">Learn more</button>
             </div>
         </section>
-        <section class="container-destination">
+        <div class="a">
+
+            <i class="fa-solid fa-circle-arrow-up scroll"></i>
+        </div>
+        <section id="destination" class="container-destination">
             <h2 class="destination-title"> Our Destination </h2>
             <p>There are many variations of passages of Lorem ipsum dolor sit, amet consectetur adipisicing elit.
                 Dolorum, facere distinctio eveniet sequi nesciunt quam veritat Lorem ipsum, dolor sit amet consectetur
@@ -206,14 +212,14 @@
                 </div>
             </div>
         </section>
-        <section class="container-donation">
+        <section id="donation" class="container-donation">
             <h4 class="donateTitleMsg">Save the Black Rhinos</h4>
             <p class="donate">Donate just $10</p>
             <a href="/" target="_blank" rel="noopener noreferrer">
                 <img src="./assets/image/save-rinocerontes.png" alt="save-rinocerontes">
             </a>
         </section>
-        <section class="container-LastestNews">
+        <section id="news" class="container-LastestNews">
             <h3 class="lastestNewsTitle">Lastest News</h3>
             <p class="lastestNewsInfo">
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae nostrum dolore eaque iste dolorum nisi
@@ -228,7 +234,7 @@
                         culpa adipisci molestias animi dolores nostrum aut illo, earum quis recusandae nam provident
                         nobis</p>
                     <a href="/">
-                        <button class="btn-news">
+                        <button class="btn-news" aria-label="leia a noticia completa clicando aqui">
                             Read more...
                         </button>
                     </a>
@@ -243,7 +249,7 @@
                                 inventore iure culpa deleniti, praesentium eligendi ea! Eum non aliquid explicabo
                                 excepturi molestias soluta, alias dolorum doloremque dicta deleniti.</p>
                             <a href="/">
-                                <button class="btn-news">
+                                <button class="btn-news" aria-label="leia a noticia completa clicando aqui">
                                     Read more...
                                 </button>
                             </a>
@@ -258,7 +264,7 @@
                                 ducimus autem debitis, optio ad eos doloribus, reiciendis minus consequuntur. Quia quam
                                 tempore debitis sunt. Tempore?</p>
                             <a href="/">
-                                <button class="btn-news">
+                                <button class="btn-news" aria-label="leia a noticia completa clicando aqui">
                                     Read more...
                                 </button>
                             </a>
@@ -276,7 +282,7 @@
                 <p class="address-info">+00 567 453 6854</p>
                 <p class="address-info">main@yournome.com</p>
             </address>
-            <div>
+            <div aria-label="área referente as redes sociais do zoológico">
                 <a href="/">
                     <i class=" social-network fa-brands fa-facebook"></i>
                 </a>
@@ -321,8 +327,8 @@
                 <li><a href="/">Contact Us</a></li>
             </ul>
         </div>
-        <div class="dev">
-            <h4>Desenvolvido com ❤ por Luís Soares</h4>
+        <div class="dev" aria-label="sessão referente as informações sobre o desenvolvedor">
+            <h4>Desenvolvido com ❤ por <span id="devName">Luís Soares</span></h4>
             <ul class="dev-socialNetwork">
                 <li><a class="social-network" href="https://www.linkedin.com/in/luis-soares-281589234/"
                         target="_blank"><i class="fa-brands fa-linkedin"></i></a></li>

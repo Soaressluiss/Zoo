@@ -50,18 +50,19 @@
     color: white;
     font-family: var(--paragrafo);
 }
+.explore-options>a:hover {
+    color: var(--menuNavHover);
+    transition: all 1s ease;
+}
 .newsletter {
     grid-area: newsletter;
     display: flex;
     flex-direction: column;
-    /* justify-content: center;
-    text-align: left; */
 }
 .newsletter-tittle {
     font-family: var(--titulo);
     color: var(--menuNavHover);
     font-size: 1.5rem;
-   
 }
 .newsletter-info{
     color: white;
@@ -93,6 +94,7 @@
     background-color: var(--menuNavBtnHover);
     color: var(--menuNav);
     transition: all 1s ease;
+    animation: backAndForth 2s ease-in-out forwards;
 }
 .corporation-zoo {
     grid-area: corporation;
@@ -144,4 +146,9 @@
     display: flex;
     align-items: center;
     gap: .5rem;
+    animation: backAndForth 3s infinite ease-in-out forwards;
+}
+#devName{
+    color: var(--menuNavHover);
+    padding-left: .4rem;
 }

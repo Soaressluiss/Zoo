@@ -23,3 +23,25 @@ root {
     scroll-behavior: smooth;
 }
 
+body::-webkit-scrollbar {
+    width: 10px;
+}
+
+body::-webkit-scrollbar-thumb {
+    background-color: var(--menuNavHover);
+    border-radius: 20px;
+}
+
+.scroll {
+    font-size:2rem;
+    color: var(--menuNavHover);
+    filter: drop-shadow(1px 1px 4px black);
+    z-index: 99;
+    position: fixed;
+
+}
+.a {
+    background-color: red;
+    width: 50px;
+    height: 50px;
+}

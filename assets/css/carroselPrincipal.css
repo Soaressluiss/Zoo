@@ -39,7 +39,7 @@
 .btn-discover {
     background-color: var(--menuNavHover);
     color: white;
-    padding: .5rem .7rem;
+    padding: .7rem;
     border-radius: 5px;
     width: 120px;
     border: none;
@@ -53,5 +53,6 @@
     transition: all 1s ease;
     background-color: var(--menuNavBtnHover);
     color: rgb(36, 38, 39);
+    animation: backAndForth 2s ease-in-out forwards;
 }
 

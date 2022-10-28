@@ -64,4 +64,5 @@
 .btn-news:hover {
     background-color: var(--menuNavBtnHover);
     transition: all 1s ease-in-out;
+    animation: backAndForth 2s ease-in-out forwards;
 }
