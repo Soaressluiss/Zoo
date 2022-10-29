@@ -2,7 +2,8 @@
     padding-top: 1rem;
     background-color: var(--menuNav);
     display: grid;
-    grid-template-areas:  "company explore newsletter"
+    grid-template-areas:
+                        "company explore newsletter"
                         "corporation corporation corporation"
                         "dev dev dev";
                         
@@ -151,4 +152,18 @@
 #devName{
     color: var(--menuNavHover);
     padding-left: .4rem;
+}
+
+.scrollToUp {
+    grid-area: scrollToUp;
+    font-size:2rem;
+    color: var(--menuNavHover);
+    filter: drop-shadow(1px 1px 4px black);
+    z-index: 99;
+    position: fixed;
+    top: 560px;
+    right: 40px;
+    display: none;
+    cursor: pointer;
+
 }

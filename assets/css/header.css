@@ -13,25 +13,62 @@ nav {
     align-items: center;
 }
 
-.nav-menu>li>a {
+.menu-itens {
     text-transform: uppercase;
     font-size: 1rem;
     font-family: var(--titulo);
     font-weight: bold;
     color: white;
-
-
+    cursor: pointer;
+    position: relative;
 }
 
-.nav-menu>li>a:hover {
+.menu-itens:hover {
+    color: var(--menuNavHover);
+}
+
+.list-aboutUs{
+    margin-top: 5px;
+    position: absolute;
+    background-color: #127585;
+    z-index: 6;
+    width: 120px;
+    display: none;
+}
+.list-aboutUsShow {
+    display: block;
+}
+
+.list-aboutUs >li {
+    padding: .3rem ;
+}
+.list-aboutUs >li>a {
+    color: white;
+}
+.list-aboutUs >li>a:hover {
     color: var(--menuNavHover)
 }
+.list-aboutUs >li:hover {
+    background-color: #328b99;
+    transition: all .5s ease-in-out;
+}
 
-#buscar{
+
+
+
+
+
+.buscar{
     border: none;
     border-radius: 10px;
     padding: .3rem 1rem;
+    display: none;
+
 }
+.buscarAnimation {
+    display: block;
+}
+
 .search {
     color: white;
     cursor: pointer;

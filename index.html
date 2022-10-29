@@ -7,8 +7,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Zoo</title>
     <link href="https://fonts.googleapis.com/css2?family=DM+Sans&family=Overpass&display=swap" rel="stylesheet">
-    <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
+    <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link rel="stylesheet" href="assets/css/style.css">
     <link rel="stylesheet" href="./assets/css/header.css">
     <link rel="stylesheet" href="./assets/css/carroselPrincipal.css">
@@ -28,18 +29,29 @@
         <nav>
             <h1><img src="https://via.placeholder.com/150x50" alt="logo do site" aria-label="logo do site"></h1>
             <ul class="nav-menu">
-                <li><a href="/">Home</a></li>
-                <li><a href="#destination">Destinations</a></li>
-                <li><a href="#donation">Donate</a></li>
-                <li><a href="#news">News</a></li>
-                <li><a href="/">About us</a></li>
-                <li><a href="/">Contats</a></li>
-                <input type="search" name="buscar" id="buscar" aria-label="digite um termo" placeholder="digite um termo...">
+                <li><a class="menu-itens" href="/">Home</a></li>
+                <li><a class="menu-itens" href="#destination">Destinations</a></li>
+                <li><a class="menu-itens" href="#donation">Donate</a></li>
+                <li><a class="menu-itens" href="#news">News</a></li>
+
+
+                <li class="menu-itens aboutUs"> About us↓
+                    <ul class="list-aboutUs">
+                        <li><a href="/">Our History</a></li>
+                        <li><a href="/">Founders</a></li>
+                    </ul>
+                </li>
+
+
+
+
+                <li><a class="menu-itens" href="/">Contats</a></li>
+                <input type="search" name="buscar" class="buscar" aria-label="digite um termo"
+                    placeholder="digite um termo...">
                 <i role="search" class="fa-solid fa-magnifying-glass search"></i>
                 <div role="button" class="btn-ticket">
                     <a class="linkTicket" href="#">
-                        <i class="fa-solid fa-ticket ticket"></i>
-                        Tickets
+                        <i class="fa-solid fa-ticket ticket"> Tickets</i>
                     </a>
                 </div>
             </ul>
@@ -81,10 +93,6 @@
                 <button class="btn-especies">Learn more</button>
             </div>
         </section>
-        <div class="a">
-
-            <i class="fa-solid fa-circle-arrow-up scroll"></i>
-        </div>
         <section id="destination" class="container-destination">
             <h2 class="destination-title"> Our Destination </h2>
             <p>There are many variations of passages of Lorem ipsum dolor sit, amet consectetur adipisicing elit.
@@ -275,6 +283,9 @@
         </section>
     </main>
     <footer class="footer">
+
+        <i class="fa-solid fa-circle-arrow-up scrollToUp"></i>
+
         <div class="zoo-company">
             <img src="https://via.placeholder.com/150x50" alt="logo">
             <address>
@@ -342,7 +353,9 @@
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
     <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script src="./assets/scripts/carrosels.js"></script>
+    <script src="./assets/scripts/index.js"></script>
 
 </body>
 
