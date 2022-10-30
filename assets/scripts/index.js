@@ -1,4 +1,4 @@
-AOS.init();
+
 
 const scrollBtn = document.querySelector(".scrollToUp")
 
