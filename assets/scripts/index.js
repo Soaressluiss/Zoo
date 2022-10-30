@@ -25,14 +25,3 @@ const lupa = document.querySelector(".search")
 lupa.addEventListener('click', ()=> {
     campoBuscar.classList.toggle("buscarAnimation")
 })
-
-
-// animação menuDropDown
-
-const aboutUs = document.querySelector(".aboutUs")
-const aboutUsList = document.querySelector(".list-aboutUs")
-
-aboutUs.addEventListener("mouseover", ()=>{
-    aboutUsList.classList.toggle('list-aboutUsShow')
-    console.log(aboutUsList)
-})

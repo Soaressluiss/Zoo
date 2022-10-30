@@ -19,25 +19,28 @@ nav {
     font-family: var(--titulo);
     font-weight: bold;
     color: white;
+    padding: .5rem 0;
     cursor: pointer;
     position: relative;
+}
+
+.menu-itens:hover .list-aboutUs {
+    display: block;
 }
 
 .menu-itens:hover {
     color: var(--menuNavHover);
 }
-
 .list-aboutUs{
     margin-top: 5px;
     position: absolute;
     background-color: #127585;
     z-index: 6;
     width: 120px;
+    text-align: center;
     display: none;
 }
-.list-aboutUsShow {
-    display: block;
-}
+
 
 .list-aboutUs >li {
     padding: .3rem ;

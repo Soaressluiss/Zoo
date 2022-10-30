@@ -5,11 +5,13 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="venha conhecer o ZooPark e viver momentos especiais com a sua família">
+    <meta name="theme-color" content="#00434D" />
+    <link rel="shortcut icon" href="./assets/image/icon.png" type="image/x-icon">
     <title>Zoo</title>
     <link href="https://fonts.googleapis.com/css2?family=DM+Sans&family=Overpass&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
-    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link rel="stylesheet" href="assets/css/style.css">
     <link rel="stylesheet" href="./assets/css/header.css">
     <link rel="stylesheet" href="./assets/css/carroselPrincipal.css">
@@ -27,24 +29,18 @@
 <body>
     <header>
         <nav>
-            <h1><img src="https://via.placeholder.com/150x50" alt="logo do site" aria-label="logo do site"></h1>
+            <h1><a href="/"><img src="./assets/image/logo.svg" alt="logo do site" aria-label="logo do site"></a></h1>
             <ul class="nav-menu">
                 <li><a class="menu-itens" href="/">Home</a></li>
                 <li><a class="menu-itens" href="#destination">Destinations</a></li>
                 <li><a class="menu-itens" href="#donation">Donate</a></li>
                 <li><a class="menu-itens" href="#news">News</a></li>
-
-
-                <li class="menu-itens aboutUs"> About us↓
+                <li class="menu-itens"> About us↓
                     <ul class="list-aboutUs">
                         <li><a href="/">Our History</a></li>
                         <li><a href="/">Founders</a></li>
                     </ul>
                 </li>
-
-
-
-
                 <li><a class="menu-itens" href="/">Contats</a></li>
                 <input type="search" name="buscar" class="buscar" aria-label="digite um termo"
                     placeholder="digite um termo...">
@@ -74,10 +70,9 @@
                     <img src="./assets/image/carrosel-girafa.png" alt="girafa">
                 </div>
             </div>
-
         </section>
         <section class="container-findEspecies">
-            <img src="./assets/image/coleção-animais.png" alt="coleção de fotos de animais">
+            <img class="img-findEspecies" src="./assets/image/coleção-animais.png" alt="coleção de fotos de animais">
             <div class="especies-info">
                 <span>You can find</span>
                 <h2>All the most popular species</h2>
@@ -283,11 +278,9 @@
         </section>
     </main>
     <footer class="footer">
-
         <i class="fa-solid fa-circle-arrow-up scrollToUp"></i>
-
         <div class="zoo-company">
-            <img src="https://via.placeholder.com/150x50" alt="logo">
+            <img src="./assets/image/logo.svg" alt="logo">
             <address>
                 <p class="address-info">Company Address here:<br>Soekarno Street 077 SP 70A</p>
                 <p class="address-info">+00 567 453 6854</p>
@@ -353,7 +346,8 @@
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
     <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
-    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <script src="./assets/scripts/animations.js"></script>
     <script src="./assets/scripts/carrosels.js"></script>
     <script src="./assets/scripts/index.js"></script>
 
