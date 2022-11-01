@@ -25,3 +25,19 @@ const lupa = document.querySelector(".search")
 lupa.addEventListener('click', ()=> {
     campoBuscar.classList.toggle("buscarAnimation")
 })
+
+
+// menu hamburguer
+
+let hamburguer = document.querySelector(".fa-bars")
+let close = document.querySelector(".fa-x")
+let menu = document.querySelector(".nav-menu")
+
+hamburguer.addEventListener("click", ()=>{
+    menu.classList.toggle("nav-menu-show")
+    menu.classList.remove("nav-menu")
+})
+close.addEventListener("click", ()=>{
+    menu.classList.toggle("nav-menu-show")
+    menu.classList.add("nav-menu")
+})

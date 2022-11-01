@@ -1,11 +1,11 @@
 .container-carrosel-principal {
-  width: 90%;
+  /* width: 90%; */
   margin: 0 auto;
 }
-.container-tittle {
+.container-title {
     position: absolute;
     color: white;
-    z-index: 9999;
+    z-index: 9998;
     margin: 4.5rem;
     max-width: 50%;
     display: flex;
@@ -13,7 +13,7 @@
     gap: .5rem;
 }
 
-.container-tittle>span {
+.title-sub {
     color: var(--menuNavHover);
     font-size: 2rem;
     font-family: var(--titulo);
@@ -21,7 +21,7 @@
     text-shadow: 1px 2px 3px black;
 }
 
-.container-tittle>h3 {
+.title-sub-continue {
     font-family: var(--titulo);
     font-size: 1.8rem;
     font-weight: bold;
@@ -29,7 +29,7 @@
 
 }
 
-.container-tittle>p {
+.titleMsg {
     font-weight: bold;
     font-size: 1rem;
     text-align: justify;
@@ -56,3 +56,36 @@
     animation: backAndForth 2s ease-in-out forwards;
 }
 
+/* tablet responsive */
+
+@media screen and (max-width:835px) {
+    .container-title {
+        margin: 1.5rem;
+        gap: .2rem;
+    }
+    .title-sub, .title-sub-continue, .titleMsg{
+        font-size: 1rem;
+    }
+    
+    .btn-discover {
+        padding: .4rem;
+    }
+}
+
+/* smartphones responsive */
+
+@media screen and (max-width:435px) {
+    .container-carrosel-principal {
+        display: flex;
+        flex-direction: column-reverse;
+        background-color:var(--menuNav);
+    }
+    .container-title{
+        position: relative;
+        max-width: 100%;
+        text-align: center;
+    }
+    .btn-discover {
+        margin: 1rem auto;
+    }
+}

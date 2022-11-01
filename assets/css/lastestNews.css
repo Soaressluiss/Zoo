@@ -66,3 +66,12 @@
     transition: all 1s ease-in-out;
     animation: backAndForth 2s ease-in-out forwards;
 }
+
+/* tablet responsive */
+
+@media screen and (max-width: 835px) {
+    .news {
+     flex-direction: column;
+    }
+    
+}

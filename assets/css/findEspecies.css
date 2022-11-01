@@ -61,3 +61,18 @@
     color: rgb(36, 38, 39);
     animation: backAndForth 2s ease-in-out forwards;
 }
+
+/* tablet responsive  */
+
+@media screen and (max-width:835px) {
+    .container-findEspecies {
+        flex-direction: column-reverse;
+        margin: 2rem;
+    }
+    .especies-info {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-bottom: 2rem;
+    }
+}
