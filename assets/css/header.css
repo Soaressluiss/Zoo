@@ -160,3 +160,8 @@ nav {
         z-index: 9999;
     }
 }
+@media screen and (max-width:350px) {
+    .fa-bars {
+        margin-right: 1rem;
+    }
+}

@@ -24,6 +24,13 @@ $(document).ready(function () {
         arrows:true,
         prevArrow: prev,
         nextArrow: next,
-
+        responsive:[
+            {
+            breakpoint:435,
+            settings: {
+                slidesToShow:1
+            }
+            }
+        ]
     });
 });

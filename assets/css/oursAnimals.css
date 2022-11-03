@@ -54,3 +54,8 @@
         gap: 1rem;
     }
 }
+@media screen and (max-width:435px) {
+    .animalsExposed {
+        gap: 0
+    }
+}

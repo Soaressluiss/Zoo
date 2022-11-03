@@ -61,3 +61,20 @@
 
     }
 }
+
+/* smartphones responsive */
+
+@media screen and (max-width: 435px){
+    .destination-imgs{
+        grid-template-areas: "a"
+                            " b"
+                            "c"
+                            "d"
+                            "e"
+                            "f"
+
+    }
+    .container-destination>p {
+        max-width: 80%;
+    }
+}

@@ -73,3 +73,23 @@
         color: var(--menuNavBtnHover);
         
 }
+
+/* tablets responsive */
+@media screen and (max-width:835px){
+    .arrows-comentarios {
+        gap: 1rem;
+    }
+    .fa-circle-arrow-left,.fa-circle-arrow-right {
+        font-size: 1.2rem;
+    }
+}
+
+/* smartphones responsivve */
+
+@media screen and (max-width:435px){
+    .testimonial-msg {
+        text-align: justify;
+        max-width: 80%;
+    }
+ 
+}

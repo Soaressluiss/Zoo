@@ -15,7 +15,7 @@
 
 .title-sub {
     color: var(--menuNavHover);
-    font-size: 2rem;
+    font-size: 2.3rem;
     font-family: var(--titulo);
     font-weight: bold;
     text-shadow: 1px 2px 3px black;
@@ -31,7 +31,7 @@
 
 .titleMsg {
     font-weight: bold;
-    font-size: 1rem;
+    font-size: 1.4rem;
     text-align: justify;
     text-shadow: 1px 2px 3px black;
 }
@@ -45,6 +45,7 @@
     border: none;
     margin-top: .5rem;
     font-size: .8rem;
+    text-shadow: black 0.1em 0.1em 0.2em;
     box-shadow: 1px 1px 2px black;
     cursor: pointer;
 }
@@ -79,6 +80,9 @@
         display: flex;
         flex-direction: column-reverse;
         background-color:var(--menuNav);
+    }
+    .title-sub-continue {
+        padding-bottom: 1rem;
     }
     .container-title{
         position: relative;

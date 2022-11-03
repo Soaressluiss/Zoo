@@ -75,3 +75,19 @@
     }
     
 }
+
+/* smathohones responsive */
+
+@media screen and (max-width:435px){
+    .newsPosts01 >img {
+        width: 90%;
+    }
+    .newsPostsAside {
+        flex-direction: column;
+        align-items: center;
+    }
+    .btn-news {
+        display: block;
+        margin: 12px auto;
+    }
+}

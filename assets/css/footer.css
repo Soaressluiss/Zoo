@@ -227,3 +227,12 @@
         margin: 1rem;
     }
 }
+@media screen and (max-width:435px){
+    .scrollToUp {
+        right: 20px;
+    }
+    .corporation-socialNetworks>li{
+        font-size: .8rem;
+        text-align: justify;
+    }
+}
