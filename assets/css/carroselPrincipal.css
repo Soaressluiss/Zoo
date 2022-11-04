@@ -63,12 +63,16 @@
         margin: 1.5rem;
         gap: .2rem;
     }
-    .title-sub, .title-sub-continue, .titleMsg{
+    .title-sub, .title-sub-continue {
+        font-size: 1.8rem;
+    }
+    
+    .titleMsg{
         font-size: 1rem;
     }
     
     .btn-discover {
-        padding: .4rem;
+        padding: .4rem ;
     }
 }
 
@@ -82,6 +86,7 @@
     }
     .title-sub-continue {
         padding-bottom: 1rem;
+        font-size: 1.8rem;
     }
     .container-title{
         position: relative;
@@ -90,5 +95,9 @@
     }
     .btn-discover {
         margin: 1rem auto;
+        padding: .8rem;
+    }
+    .title-sub {
+        font-size: 2rem;
     }
 }

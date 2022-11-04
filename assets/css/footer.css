@@ -50,7 +50,7 @@
 }
 
 .explore-options {
-    padding: .3rem;
+    padding: .6rem;  
 }
 
 .explore-options>a {
@@ -192,7 +192,10 @@
     cursor: pointer;
 
 }
-
+.scrollToUp:hover{
+    transform: scale(1.1);
+    transition: all .5s linear;
+}
 
 /* tablet responsive */
 
@@ -214,6 +217,9 @@
         align-items: center;
         gap: 0.5rem;
     }
+    .newsletter-tittle, .explore-tittle {
+        font-size:1.8rem;
+    }
     .corporation-zoo {
         flex-direction: column;
         align-items: center;
@@ -226,13 +232,19 @@
     .dev{
         margin: 1rem;
     }
+    .social-network {
+        font-size: 2rem;
+    }
+    .dev-socialNetwork {
+        animation: none;
+    }
 }
 @media screen and (max-width:435px){
     .scrollToUp {
         right: 20px;
     }
     .corporation-socialNetworks>li{
-        font-size: .8rem;
+        font-size: 1rem;
         text-align: justify;
     }
 }

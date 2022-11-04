@@ -135,13 +135,17 @@
         align-items: center;
         position: absolute;
         justify-content: center;
-        gap: 1rem;
+        gap: 2.5rem;
         top: 0px;
         padding: 1rem;
         background-color: var(--menuNav);
         z-index: 9999;
         height: 100%;
         width: 100%;
+    }
+    .list-aboutUs {
+        margin-left: 5rem;
+        margin-top: -3rem;
     }
 }
 
@@ -153,17 +157,21 @@
     }
 
     .btn-ticket {
-        padding: .3rem .5rem;
+        padding: .4rem .7rem;
+        margin-left: .5rem;
     }
     .buscar {
         position: absolute;
         top: 80px;
         right: 50px;
         z-index: 9999;
+        padding: .5rem 2rem;
     }
 }
 @media screen and (max-width:350px) {
     .fa-bars {
         margin-right: 1rem;
     }
+  
 }
+
