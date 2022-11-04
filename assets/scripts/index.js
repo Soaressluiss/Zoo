@@ -41,3 +41,14 @@ close.addEventListener("click", ()=>{
     menu.classList.toggle("nav-menu-show")
     menu.classList.add("nav-menu")
 })
+
+
+// animação de Pre-Load
+
+let load = document.querySelector(".container-loading")
+
+window.addEventListener("load", ()=>{
+    setInterval(()=>{
+        load.style.display = "none"
+    },3000)
+})

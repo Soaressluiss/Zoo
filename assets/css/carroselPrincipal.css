@@ -1,6 +1,5 @@
 .container-carrosel-principal {
-  /* width: 90%; */
-  margin: 0 auto;
+    margin: 0 auto;
 }
 .container-title {
     position: absolute;
@@ -53,7 +52,7 @@
 .btn-discover:hover {
     transition: all 1s ease;
     background-color: var(--menuNavBtnHover);
-    color: rgb(36, 38, 39);
+    color: var(--menuNav);
     animation: backAndForth 2s ease-in-out forwards;
 }
 

@@ -8,7 +8,7 @@
     <meta name="description" content="venha conhecer o ZooPark e viver momentos especiais com a sua família">
     <meta name="theme-color" content="#00434D" />
     <link rel="shortcut icon" href="./assets/image/icon.png" type="image/x-icon">
-    <title>Zoo</title>
+    <title>ZooPark</title>
     <link href="https://fonts.googleapis.com/css2?family=DM+Sans&family=Overpass&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
@@ -27,9 +27,13 @@
 </head>
 
 <body>
-    <header>
-        <nav>
-            <h1><a href="/"><img class="logo" src="./assets/image/logo.svg" alt="logo do site" aria-label="logo do site"></a></h1>
+    <div class="container-loading">
+        <span class="loading"></span>
+    </div>
+    <header class="header">
+        <nav class="navbar">
+            <h1><a href="/"><img class="logo" src="./assets/image/logo.svg" alt="logo do site"
+                        aria-label="logo do site"></a></h1>
             <ul class="nav-menu">
                 <i class="fa-solid fa-x"></i>
                 <li><a class="menu-itens" href="/">Home</a></li>
@@ -58,7 +62,8 @@
             <section class="container-title">
                 <span class="title-sub">Journey to</span>
                 <h3 class="title-sub-continue">Trought a world of wildfire</h3>
-                <p class="titleMsg">There are many variations of passages of Lorem ipsum availabre but the majority have that suffered
+                <p class="titleMsg">There are many variations of passages of Lorem ipsum availabre but the majority have
+                    that suffered
                     alternation in some by injected humour.</p>
                 <button class="btn-discover">Discover Now</button>
             </section>
@@ -322,7 +327,8 @@
             <h3 class="newsletter-tittle">Our Newsletter</h3>
             <p class="newsletter-info">Subscribe and get latter <br> our news & update</p>
             <form class="newsletter-form" action="mailto:luissoaress.dev@gmail.com" method="post">
-                <input class="newsletter-form-email" type="email" name="Email" id="email" value="email" placeholder="Email" pattern="^[\w-\.]+@([\w-]+\.)+[\w-]{2,4}$">
+                <input class="newsletter-form-email" type="email" name="Email" id="email" value="email"
+                    placeholder="Email" pattern="^[\w-\.]+@([\w-]+\.)+[\w-]{2,4}$">
                 <input class="newsletter-form-subscribe" type="submit" value="enviar">
             </form>
         </div>
