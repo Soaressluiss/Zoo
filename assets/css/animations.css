@@ -10,7 +10,6 @@
     }
 }
 
-
 /* animação pre-Load */
 
 .container-loading {
@@ -18,23 +17,52 @@
     height: 100%;
     position: absolute;
     background-color: #F5F5F5;
+    display: block;
+    animation: fade 1s linear .500s forwards;
     z-index: 9999;
-    animation: fade 1s linear 1s forwards;
-
 }
 
 .loading {
-    background: url(https://vistadospinheiros.com.br/wp-content/uploads/2021/04/3b4e109d6b621ed5a9249769afbd4dfa.gif) no-repeat;
-    position: absolute;
-    display: block;
-    width: 800px;
-    height: 600px;
-    z-index: 9999;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
+    position: absolute;
 }
 
+.loading>span {
+    display: block;
+    width: 64px;
+    height: 64px;
+    animation: imgs 1s linear forwards;
+}
+
+@keyframes imgs {
+    0% {
+        background: url(../image/animationImgs/girafa.png) no-repeat;
+        transform: scale(1.1);
+    }
+
+    25% {
+        background: url(../image/animationImgs/elefante.png) no-repeat;
+        transform: scale(1.2);
+    }
+
+    50% {
+        background: url(../image/animationImgs/leao.png) no-repeat;
+        transform: scale(1.1);
+    }
+
+    75% {
+        background: url(../image/animationImgs/papagaio.png) no-repeat;
+        transform: scale(1.2);
+    }
+
+    100% {
+        background: url(../image/animationImgs/elefante.png) no-repeat;
+        transform: scale(1.1);
+    }
+
+}
 
 @keyframes fade {
     from {
@@ -44,5 +72,4 @@
     to {
         opacity: 0;
     }
-
 }
