@@ -1,7 +1,7 @@
 
 <div>
 
-![header](/assets/image/header%20login%20page%20responsive.png)
+![header](/assets/image/banner%20zoo.jpg)
 
 </div>
 <div>
@@ -20,26 +20,24 @@
 ## 🔢 Tópicos:
 
 - Descrição
-- funcionalidades
+- Funcionalidades
 - Tecnologias utilizadas
 - Acesse ao projeto
 - Inicie localmente o Projeto
 - Gif demostrativo
 
 
-## 📃 Descrição :
+## 📃 Descrição:
 
-O projeto consiste na representação de uma página de zoológico
-
-Foi desenvolvido com o intuito de aprimorar os conhecimentos em manipulação de DOM e responsividade.
-
-## ⚙ Funcionalidades :
+O projeto consiste na representação de uma página de um zoológico, onde os usuários poderam conhecer os animais expostos, as atividades que podem ser realizadas e as instalações do local.
 
 
-- Adaptabilidade a diversos tamanhos de tela (desktop, tablet e smartphones);
 
+## ⚙ Funcionalidades:
 
-## 👨‍💻 Tecnologias utilizadas :
+- Foi desenvolvido com o intuito de aprimorar os conhecimentos em manipulação de DOM e responsividade a diversos tamanhos de tela (desktop, tablet e smartphones), animações e UX/UI.
+
+## 👨‍💻 Tecnologias utilizadas:
 
  Tecnologias |  Ícones
 :---------: | :--------:
@@ -51,7 +49,7 @@ Foi desenvolvido com o intuito de aprimorar os conhecimentos em manipulação de
 
 ## 🌐 Acesse o projeto online:
 
->[ZooPark 🦁](https://soaressluiss.github.io/Zoo/)
+>[ZooPark 🐵](https://soaressluiss.github.io/Zoo/)
 
 ## 💻 Inicie localmente:
 
@@ -64,7 +62,7 @@ git clone https://github.com/Soaressluiss/Zoo.git
 Vá para o diretório da pasta 
 
 ```
-cd Login page responsive
+cd Zoo
 ```
 
 Inicío o arquivo **index.html** em algum navegador de sua preferência, recomendo a extensão do Vscode <a href="https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer" target="_blank" > Live Server</a> através do comando:

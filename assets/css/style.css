@@ -9,6 +9,10 @@
     --menuNavBtnHover: rgb(255, 230, 0);
 }
 
+hmtl > img {
+    aspect-ratio: attr(width) / attr(height);
+  }
+
 * {
     padding: 0;
     margin: 0;

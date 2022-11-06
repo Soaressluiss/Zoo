@@ -50,5 +50,5 @@ let load = document.querySelector(".container-loading")
 window.addEventListener("load", ()=>{
     setInterval(()=>{
         load.style.display = "none"
-    },3000)
+    },4000)
 })
