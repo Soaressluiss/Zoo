@@ -14,7 +14,7 @@
 
 .title-sub {
     color: var(--menuNavHover);
-    font-size: 2.3rem;
+    font-size: 2rem;
     font-family: var(--titulo);
     font-weight: bold;
     text-shadow: 1px 2px 3px black;
@@ -22,7 +22,7 @@
 
 .title-sub-continue {
     font-family: var(--titulo);
-    font-size: 1.8rem;
+    font-size: 1.6rem;
     font-weight: bold;
     text-shadow: 1px 2px 3px black;
 
@@ -30,7 +30,7 @@
 
 .titleMsg {
     font-weight: bold;
-    font-size: 1.4rem;
+    font-size: 1.2rem;
     text-align: justify;
     text-shadow: 1px 2px 3px black;
 }
@@ -64,7 +64,7 @@
         gap: .2rem;
     }
     .title-sub, .title-sub-continue {
-        font-size: 1.8rem;
+        font-size: 1.6rem;
     }
     
     .titleMsg{
