@@ -10,7 +10,7 @@
 ![forks](https://img.shields.io/github/forks/soaressluiss/zoo?style=for-the-badge&logo=appveyor)
 ![star user](https://img.shields.io/github/stars/soaressluiss/login-page-responsive?style=for-the-badge&logo=appveyor&color=yellow)
 ![files](https://img.shields.io/github/directory-file-count/soaressluiss/zoo?style=for-the-badge&logo=appveyor&color=blue)
-![status](https://img.shields.io/static/v1?label=STATUS&message=em-desenvolvimento&color=GREEN&style=for-the-badge&logo=appveyor)
+![status](https://img.shields.io/static/v1?label=STATUS&message=concluido&color=GREEN&style=for-the-badge&logo=appveyor)
 ![licenca](https://img.shields.io/static/v1?label=License&message=MIT&color=green&style=for-the-badge&logo=appveyor)
 
 
@@ -74,7 +74,7 @@ alt+L alt+O
 ou clique em "GO Live" no canto inferior direito do Vscode para iniciar o Server.
 
 ## 📽 Gif demostrativo:
-![animation](/assets/image/anima%C3%A7%C3%A3o%20Login%20page%20responsive.gif)
+![animation](/assets/image/zoogif.gif)
 
 #### Feito com ❤ por [Luís Soares](https://github.com/Soaressluiss) ©2022
 
