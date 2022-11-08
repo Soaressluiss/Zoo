@@ -20,7 +20,6 @@
 ## 🔢 Tópicos:
 
 - Descrição
-- Funcionalidades
 - Tecnologias utilizadas
 - Acesse ao projeto
 - Inicie localmente o Projeto
@@ -31,11 +30,7 @@
 
 O projeto consiste na representação de uma página de um zoológico, onde os usuários poderam conhecer os animais expostos, as atividades que podem ser realizadas e as instalações do local.
 
-
-
-## ⚙ Funcionalidades:
-
-- Foi desenvolvido com o intuito de aprimorar os conhecimentos em manipulação de DOM e responsividade a diversos tamanhos de tela (desktop, tablet e smartphones), animações e UX/UI.
+Foi desenvolvido com o intuito de aprimorar os conhecimentos em manipulação de DOM e responsividade a diversos tamanhos de tela (desktop, tablet e smartphones), animações e UX/UI.
 
 ## 👨‍💻 Tecnologias utilizadas:
 

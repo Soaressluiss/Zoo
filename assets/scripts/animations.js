@@ -1,6 +1,6 @@
 ScrollReveal().reveal('.animationUp', {
     delay: 500,
-    reset: true,
+    reset: false,
     useDelay: 'once',
     origin: 'top',
     interval: 600 ,
@@ -8,7 +8,7 @@ ScrollReveal().reveal('.animationUp', {
 });
 ScrollReveal().reveal('.animationDown', {
     delay: 500,
-    reset: true,
+    reset:false,
     useDelay: 'once',
     origin: 'bottom',
     interval: 600 ,
@@ -16,7 +16,7 @@ ScrollReveal().reveal('.animationDown', {
 });
 ScrollReveal().reveal('.animationLeft', {
     delay: 500,
-    reset: true,
+    reset: false,
     useDelay: 'once',
     origin: 'left',
     interval: 600 ,
@@ -24,7 +24,7 @@ ScrollReveal().reveal('.animationLeft', {
 });
 ScrollReveal().reveal('.animationRight', {
     delay: 500,
-    reset: true,
+    reset: false,
     useDelay: 'once',
     origin: 'right',
     interval: 600 ,
