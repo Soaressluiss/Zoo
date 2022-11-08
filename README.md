@@ -69,7 +69,7 @@ alt+L alt+O
 ou clique em "GO Live" no canto inferior direito do Vscode para iniciar o Server.
 
 ## 📽 Gif demostrativo:
-![animation](/assets/image/zoogif.gif)
+![animation](/assets/image/zooGif.gif)
 
 #### Feito com ❤ por [Luís Soares](https://github.com/Soaressluiss) ©2022
 
