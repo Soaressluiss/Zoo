@@ -2,7 +2,7 @@
 
 const scrollBtn = document.querySelector(".scrollToUp")
 
-function scroll () {
+function scroll() {
     if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
         scrollBtn.style.display = "block";
     } else {
@@ -10,10 +10,10 @@ function scroll () {
     }
 }
 
-window.onscroll = function() {scroll()};
+window.onscroll = function () { scroll() };
 
-scrollBtn.addEventListener("click",()=>{
-    document.body.scrollTop = 0; 
+scrollBtn.addEventListener("click", () => {
+    document.body.scrollTop = 0;
     document.documentElement.scrollTop = 0;
 })
 
@@ -22,7 +22,7 @@ scrollBtn.addEventListener("click",()=>{
 const campoBuscar = document.querySelector(".buscar")
 const lupa = document.querySelector(".search")
 
-lupa.addEventListener('click', ()=> {
+lupa.addEventListener('click', () => {
     campoBuscar.classList.toggle("buscarAnimation")
 })
 
@@ -33,11 +33,11 @@ let hamburguer = document.querySelector(".fa-bars")
 let close = document.querySelector(".fa-x")
 let menu = document.querySelector(".nav-menu")
 
-hamburguer.addEventListener("click", ()=>{
+hamburguer.addEventListener("click", () => {
     menu.classList.toggle("nav-menu-show")
     menu.classList.remove("nav-menu")
 })
-close.addEventListener("click", ()=>{
+close.addEventListener("click", () => {
     menu.classList.toggle("nav-menu-show")
     menu.classList.add("nav-menu")
 })
@@ -47,8 +47,18 @@ close.addEventListener("click", ()=>{
 
 let load = document.querySelector(".container-loading")
 
-window.addEventListener("load", ()=>{
-    setInterval(()=>{
+window.addEventListener("load", () => {
+    setInterval(() => {
         load.style.display = "none"
-    },4000)
+    }, 4000)
+})
+
+
+// botao submit footer
+
+let bntSubmit = document.querySelector(".newsletter-form-subscribe")
+
+bntSubmit.addEventListener("click", (event) => {
+    event.preventDefault()
+    alert("Obrigado por assinar nossa Newsletter! :)")
 })
