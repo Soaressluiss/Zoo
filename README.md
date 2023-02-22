@@ -1,10 +1,10 @@
 
 <div>
 
-![header](/assets/image/banner%20zoo.jpg)
+![header](./assets/image/banner%20zoo.jpg)
 
 </div>
-<div>
+<div align='center'>
 
 ![Language](https://img.shields.io/github/languages/count/Soaressluiss/zoo?style=for-the-badge&logo=appveyor&color=orange)
 ![forks](https://img.shields.io/github/forks/soaressluiss/zoo?style=for-the-badge&logo=appveyor)
@@ -12,7 +12,6 @@
 ![files](https://img.shields.io/github/directory-file-count/soaressluiss/zoo?style=for-the-badge&logo=appveyor&color=blue)
 ![status](https://img.shields.io/static/v1?label=STATUS&message=concluido&color=GREEN&style=for-the-badge&logo=appveyor)
 ![licenca](https://img.shields.io/static/v1?label=License&message=MIT&color=green&style=for-the-badge&logo=appveyor)
-
 
 </div>
 
@@ -24,6 +23,7 @@
 - Acesse ao projeto
 - Inicie localmente o Projeto
 - Gif demostrativo
+- Como contribuir
 
 
 ## 📃 Descrição:
@@ -66,10 +66,28 @@ Inicío o arquivo **index.html** em algum navegador de sua preferência, recomen
 ```
 alt+L alt+O 
 ```
-ou clique em "GO Live" no canto inferior direito do Vscode para iniciar o Server.
+Ou clique em "GO Live" no canto inferior direito do Vscode para iniciar o Server.
 
 ## 📽 Gif demostrativo:
-![animation](/assets/image/zooGif.gif)
+![animation](./assets/image/zooGif.gif)
+
+## ♻️ Como contribuir:
+
+- Faça um Fork desse repositório.
+
+- Crie uma branch com a sua feature:
+  `git checkout -b my-feature`
+
+- Commit suas mudanças: ` git commit -m 'feat: My new feature'`
+
+- Push a sua branch: `git push origin my-feature`
+
+---
+
+Esse projeto está sob a licença MIT. Veja o arquivo [License](./License) para mais detalhes.
+
+---
+<div align='center'>
 
 #### Feito com ❤ por [Luís Soares](https://github.com/Soaressluiss) ©2022
 
@@ -77,4 +95,4 @@ ou clique em "GO Live" no canto inferior direito do Vscode para iniciar o Server
 
 <a href="https://www.linkedin.com/in/LuisSoaresDeveloper" target="_blank"><img src="https://img.shields.io/badge/-LinkedIn-%230077B5?style=for-the-badge&logo=linkedin&logoColor=white" target="_blank"></a>
 
-
+</div>
