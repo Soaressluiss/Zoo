@@ -84,7 +84,7 @@ Ou clique em "GO Live" no canto inferior direito do Vscode para iniciar o Server
 
 ---
 
-Esse projeto está sob a licença MIT. Veja o arquivo [License](./License) para mais detalhes.
+Esse projeto está sob a licença MIT. Veja o arquivo [License](License) para mais detalhes.
 
 ---
 <div align='center'>
