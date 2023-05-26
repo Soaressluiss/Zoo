@@ -1,12 +1,10 @@
 @keyframes backAndForth {
-
-    0%,
-    100% {
-        transform: translateX(-5px);
+    from {
+        transform: scale(1);
     }
 
-    50% {
-        transform: translateX(5px);
+    to {
+        transform: scale(.9);
     }
 }
 

@@ -59,7 +59,7 @@
     transition: all 2s ease;
     background-color: var(--menuNavBtnHover);
     color: rgb(36, 38, 39);
-    animation: backAndForth 2s ease-in-out forwards;
+    animation: backAndForth .4s ease-in forwards;
 }
 
 /* tablet responsive  */

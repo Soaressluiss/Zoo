@@ -103,7 +103,7 @@
 .btn-ticket:hover {
     transition: all 1s ease;
     background-color: var(--menuNavBtnHover);
-    animation: backAndForth 2s ease-in-out forwards;
+    animation: backAndForth .4s ease-in forwards;
     color: var(--menuNav)
 
 }
