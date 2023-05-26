@@ -71,3 +71,17 @@
         opacity: 0;
     }
 }
+
+
+@keyframes slideDown {
+    from {
+        transform: translateY(100%);
+    }
+    to {
+        transform: translateY(0);
+    }
+}
+
+.slideDown {
+    animation: slideDown .4s ease-in forwards;
+}
