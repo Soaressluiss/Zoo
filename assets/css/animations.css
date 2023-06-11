@@ -16,7 +16,6 @@
     position: absolute;
     background-color: #F5F5F5;
     display: block;
-    animation: fade 1s linear .500s forwards;
     z-index: 9999;
 }
 
@@ -31,7 +30,7 @@
     display: block;
     width: 64px;
     height: 64px;
-    animation: imgs 1s linear forwards;
+    animation: imgs 4s linear forwards;
 }
 
 @keyframes imgs {
@@ -61,17 +60,6 @@
     }
 
 }
-
-@keyframes fade {
-    from {
-        opacity: 1;
-    }
-
-    to {
-        opacity: 0;
-    }
-}
-
 
 @keyframes slideDown {
     from {

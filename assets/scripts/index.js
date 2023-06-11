@@ -55,7 +55,7 @@ menu.forEach((item)=>{
 let load = document.querySelector(".container-loading")
 
 window.addEventListener("load", () => {
-    setInterval(() => {
+    setTimeout(() => {
         load.style.display = "none"
     }, 4000)
 })
